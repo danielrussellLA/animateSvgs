@@ -1,0 +1,22 @@
+@keyframes animateball {
+  0% {
+    fill: blue;
+    transform: translateX(0);
+  }
+  50% {
+    fill: purple;
+    transform: translateX(50px);
+  }
+  100% {
+    fill: red;
+    transform: translateX(100px);
+  }
+}
+
+.ball {
+  animation: animateball 2s 2s 100 alternate ease-in-out forwards;
+}
+
+.rectangle {
+    animation: animateball 1s 3s 100 alternate ease-in-out forwards;
+}
